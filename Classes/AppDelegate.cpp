@@ -76,7 +76,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     //glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::NO_BORDER);
 
     //
-    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::NO_BORDER); //ResolutionPolicy::NO_BORDER SHOW_ALL
+    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::FIXED_WIDTH); //ResolutionPolicy::NO_BORDER SHOW_ALL
 
     auto frameSize = glview->getFrameSize();
 

@@ -46,7 +46,7 @@ private:
     cocos2d::Label *m_LifeLabel;
 
     int m_TraitSeparationY=200;
-    int m_NbLife=1000;
+    int m_NbLife=10;
 
     float m_InsectSpeed=1.0f;
     float m_IntervalSpeedInsect=5.0f;
